@@ -1,11 +1,15 @@
-# Nora Anti-Patterns
+# Nora — Anti-Patterns
 
-*This file is auto-updated by Nora after each session analysis.*
-*Anti-patterns will appear here after 2-3 coding sessions.*
+> Auto-updated after session analysis. Activates automatically in Kiro.
 
-## How Anti-Patterns Work
+Anti-patterns are mistakes, failed approaches, and bugs that Nora has observed.
+They act as guardrails — Nora warns you before you repeat a known mistake.
 
-Nora identifies mistakes, bugs, and approaches that failed during your sessions. These
-become warnings that prevent your agent from repeating the same mistakes.
+## How anti-patterns work
 
-Kiro reads this file automatically on every prompt.
+1. Nora identifies bugs, failed approaches, and error patterns from sessions
+2. Each anti-pattern includes the error signature, affected files, and suggested fix
+3. Anti-patterns are injected as warnings when Nora detects you're about to repeat one
+4. Mark anti-patterns as resolved in the Bugs tab when the underlying issue is fixed
+
+*This file populates after your first analyzed session.*
