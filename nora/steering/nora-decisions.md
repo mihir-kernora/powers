@@ -1,12 +1,15 @@
-# Nora Decisions
+# Nora — Architectural Decisions
 
-*This file is auto-updated by Nora after each session analysis.*
-*Architectural decisions will appear here after 2-3 coding sessions.*
+> Auto-updated after session analysis. Activates automatically in Kiro.
 
-## How Decisions Work
+Decisions record what was chosen, why, and what alternatives were considered.
+Nora extracts these from session transcripts so your team never re-debates settled questions.
 
-Nora records architectural and design decisions made during your sessions — technology
-choices, trade-off rationale, and structural commitments. This prevents your agent from
-relitigating decisions you've already made.
+## How decisions work
 
-Kiro reads this file automatically on every prompt.
+1. Nora identifies architectural and design choices from session transcripts
+2. Each decision includes rationale, alternatives considered, and affected files
+3. Decisions are injected into future sessions when a similar choice arises
+4. Prevents the same debate from recurring across sessions or team members
+
+*This file populates after your first analyzed session.*
