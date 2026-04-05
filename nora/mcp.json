@@ -3,8 +3,7 @@
     "nora": {
       "command": "python3",
       "args": ["${HOME}/.kernora/app/nora_mcp.py"],
-      "env": {},
-      "disabled": false
+      "env": {}
     }
   }
 }
